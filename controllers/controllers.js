@@ -414,7 +414,7 @@ module.exports = {
     getPost,
     like,
     unlike,
-    getComment: addComment,
+    addComment,
     all_posts,
     addPost,
     register

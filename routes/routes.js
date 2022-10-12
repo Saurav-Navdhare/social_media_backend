@@ -1,16 +1,17 @@
 const express = require("express");
 const Router = express.Router();
 
-const { authenticateUser,
+const {
+    authenticateUser,
     follow,
     unfollow,
     userProfile,
-    getComment: addComment,
-    all_posts,
     deletePost,
-    unlike,
-    like,
     getPost,
+    like,
+    unlike,
+    addComment,
+    all_posts,
     addPost,
     register } = require("../controllers/controllers");
 
